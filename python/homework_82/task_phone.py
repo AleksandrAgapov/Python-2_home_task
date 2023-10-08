@@ -1,4 +1,3 @@
-
 from os.path import exists
 from csv import DictReader, DictWriter
 
@@ -17,7 +16,7 @@ def get_info():
             if len(str(phone_number)) != 11:
                 print('wrong number')
             else:
-                flag = Truegi
+                flag = True
         except ValueError:
             print('not valid number')
     info.append(phone_number)
@@ -110,5 +109,4 @@ def main():
                   print("Неверная команда. Попробуйте снова.") 
 
 main()   
-
 
